@@ -67,10 +67,14 @@
 
         <!-- slider or carousel -->
         <div class="container mx-auto lg:px-24 px-8 my-8">
-            <div class="carousel w-full">
+            <div class="carousel w-full rounded-md">
 
                 <div id="slide1"
-                    class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner1.png)] h-[60vh] flex items-center justify-center">
+                    class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner1.png)] bg-center bg-cover h-[60vh] flex items-center justify-center">
+
+                    <div class="absolute top-10 right-20 text-white hover:bg-red-600 transition-all -rotate-[30deg] bg-red-400 rounded-sm p-3">
+                        <h4>Hot Deal!!</h4>
+                    </div>
 
                     <div class="flex flex-col justify-center">
 
@@ -87,7 +91,13 @@
                     </div>
                 </div>
 
-                <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner2.png)] h-[60vh] flex items-center justify-center">
+                <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner2.png)] bg-center bg-cover h-[60vh] flex items-center justify-center">
+
+                    
+                    <div class="absolute top-10 right-20 text-white hover:bg-red-600 transition-all -rotate-[30deg] bg-red-400 rounded-sm p-3">
+                        <h4>Hot Deal!!</h4>
+                    </div>
+
                     <div class="flex flex-col justify-center">
 
                         <h1 class="text-3xl lg:text-5xl font-bold text-white text-center">Exotic tastes at your doorstep</h1>
@@ -104,7 +114,13 @@
                 </div>
 
 
-                <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner3.png)] h-[60vh] flex items-center justify-center">
+                <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner3.png)] bg-center bg-cover h-[60vh] flex items-center justify-center">
+
+                    
+                    <div class="absolute top-10 right-20 text-white hover:bg-red-600 transition-all -rotate-[30deg] bg-red-400 rounded-sm p-3">
+                        <h4>Hot Deal!!</h4>
+                    </div>
+
                     <div class="flex flex-col justify-center">
 
                         <h1 class="text-3xl lg:text-5xl font-bold text-white text-center">Exotic tastes at your doorstep</h1>
@@ -118,7 +134,14 @@
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner4.png)] h-[60vh] flex items-center justify-center">
+                <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/banner4.png)] bg-center bg-cover h-[60vh] flex items-center justify-center">
+
+
+                    
+                    <div class="absolute top-10 right-20 text-white hover:bg-red-600 transition-all -rotate-[30deg] bg-red-400 rounded-sm p-3">
+                        <h4>Hot Deal!!</h4>
+                    </div>
+
                     <div class="flex flex-col justify-center">
 
                         <h1 class="text-3xl lg:text-5xl font-bold text-white text-center">Exotic tastes at your doorstep</h1>
@@ -136,19 +159,171 @@
             <div
                 class="h-[20vh] shadow-lg w-2/3 bg-white rounded-lg mx-auto -translate-y-24 flex justify-center items-center">
                 <div class="flex justify-around items-center space-x-2 ">
-                    <img class="hidden lg:flex" src="images/fruit1.png" alt="">
-                    <img class=" lg:flex" src="images/fruit2.png" alt="">
-                    <img class=" lg:flex" src="images/fruit3.png" alt="">
-                    <img class="hidden lg:flex"src="images/fruit4.png" alt="">
-                    <img class="hidden lg:flex" src="images/fruit5.png" alt="">
 
+                   <div class="hidden lg:flex flex-col justify-center">
+                    <img class=" " src="images/fruit1.png" alt="">
+                    <h3 class="justify-center flex">Strawberry</h3>
+                   </div>
+
+                   <div>
+                    <img class=" lg:flex" src="images/fruit2.png" alt="">
+                    <h3 class="justify-center flex">Orange</h3>
+                   </div>
+
+                 <div>
+                    <img class=" lg:flex" src="images/fruit3.png" alt="">
+                    <h3 class="justify-center flex">Mango</h3>
+                 </div>
+
+                  <div class="hidden lg:flex flex-col justify-center">
+                    <img class=""src="images/fruit4.png" alt="">
+                    <h3 class="justify-center flex">Strawberry</h3>
+                  </div>
+
+                  <div class="hidden lg:flex flex-col justify-center">
+                    <img class="" src="images/fruit5.png" alt="">
+                    <h3 class="justify-center flex">Mango</h3>
+
+                  </div>
                 </div>
 
             </div>
         </div>
-
     </header>
     <main>
+           <!-- deal section -->
+           <section class="container mx-auto lg:px-24 px-8 my-8">
+            <div class="flex lg:flex-row flex-col justify-center lg:space-y-0 space-y-5 lg:justify-between items-center">
+                <div class=" ">
+                    <h3 class=" flex justify-center lg:justify-start text-4xl font-bold mb-2">
+                        Deal of the day
+                    </h3>
+                    <p class=" justify-center lg:justify-start mx-auto  lg:m-0 w-2/3 text-lg opacity-80">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin <span class=" hidden lg:flex inline">literature from 45 BC, making it over 2000 years old</span>.</p>
+                </div>
+                <div class="" >
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:29;"></span>
+                          </span>
+                          days
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>
+                          </span>
+                          hours
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>
+                          </span>
+                          min
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:49;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ">
+                <!-- first card -->
+                <div class="border-2 rounded-lg flex-col space-y-3 flex items-center justify-center px-4 py-6
+                ">
+                    <img src="images/fruit6.png" alt="">
+                    <h3 class="text-[#121212] font-bold text-3xl">12.90$ - 18.85$</h3>
+                    <hr>
+                    <h4 class="opacity-80">Apples</h4>
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <button class="btn btn-ghost text-red-500">Details</button>
+                </div>
+                     <!-- second card -->
+                <div class="border-2 rounded-lg flex-col space-y-3 flex items-center justify-center px-4 py-6
+                ">
+                    <img src="images/fruit7.png" alt="">
+                    <h3 class="text-[#121212] font-bold text-3xl">12.90$ - 18.85$</h3>
+                    <hr>
+                    <h4 class="opacity-80">Orange</h4>
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <button class="btn btn-ghost text-red-500">Details</button>
+                </div>
+
+                 <!-- third card -->
+                <div class="border-2 rounded-lg flex-col space-y-3 flex items-center justify-center px-4 py-6
+                ">
+                    <img src="images/fruit8.png" alt="">
+                    <h3 class="text-[#121212] font-bold text-3xl">12.90$ - 18.85$</h3>
+                    <hr>
+                    <h4 class="opacity-80">Red Dragon</h4>
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <button class="btn btn-ghost text-red-500">Details</button>
+                </div>
+
+                 <!-- fourth card -->
+                <div class="border-2 rounded-lg flex-col space-y-3 flex items-center justify-center px-4 py-6
+                ">
+                    <img src="images/fruit9.png" alt="">
+                    <h3 class="text-[#121212] font-bold text-3xl">12.90$ - 18.85$</h3>
+                    <hr>
+                    <h4 class="opacity-80">Banana </h4>
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <button class="btn btn-ghost text-red-500">Details</button>
+                </div>
+               
+            </div>
+        </section>
 
     </main>
     <footer>
